@@ -1,0 +1,86 @@
+
+/*================== HEADER =================*/
+.header-wrap {
+	width: 100%;
+	height: 80px;
+	margin-top:20px;
+	}
+
+.top-search {
+	width: 190px;
+	height: 30px;
+	border: none;
+	border-radius:2px;
+	background-color: white;
+	background-image: url('../media/search.svg');
+	background-size: 20px 20px;
+	background-position: 97% 50%;
+	background-repeat:no-repeat;
+	margin: 10px 0px 0px 30px;
+	padding: 0px 10px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	}
+
+.header-wrap .links {
+	margin-left: 20px;
+	margin-top: 15px;
+	}
+.header-wrap .links a{
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+	}
+
+
+a#account_thumb {font-size: 14px;}
+a#account_thumb:hover {text-decoration: none;}
+img.medium.account {
+	vertical-align: middle;
+	-webkit-box-shadow:	0px 0px 8px 0px #888;
+	-moz-box-shadow:	0px 0px 8px 0px #888;
+	box-shadow:			0px 0px 8px 0px #888;
+	}
+img.medium.account:hover {
+	-webkit-box-shadow:	0px 0px 8px 0px #555;
+	-moz-box-shadow:	0px 0px 8px 0px #555;
+	box-shadow:			0px 0px 8px 0px #555;
+	}
+
+/*================== FOOTER =================*/
+.footer-wrap {
+	margin: 0px auto;
+    width: 800px;
+	}
+.footer {
+	float: left;
+	margin-top: 50px;
+	padding: 20px 0px;
+	position: relative;
+	width: 100%;
+	border: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	}
+.footer ul li {display:inline;}
+.footer ul li a {
+	font-family: Arial, sans-serif;
+	font-weight: 200;
+	color: #888;
+	font-size: 13px;
+	}
+.footer ul li a:hover {
+	text-decoration: underline;
+	}
+
+.footer dt {font-family: Source Sans Pro, Arial, sans-serif; text-transform: uppercase; font-weight: bold}
+.footer dd, .footer dt {color: #333;}
+
+.footer hr {
+	margin: 17px 0 18px;
+	height: 0;
+	clear: both;
+	border-width: 1px 0 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+	}
